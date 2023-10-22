@@ -1,0 +1,28 @@
+{
+  "name": "screen-size",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data.js",
+  "scripts": {
+    "data": "node scripts/getData.js",
+    "tsc": "node_modules/.bin/tsc",
+    "build": "webpack",
+    "server": "node_modules/.bin/browser-sync start --config bs-config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "airtable": "^0.12.2",
+    "browser-sync": "^2.29.3",
+    "json-beautify": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
